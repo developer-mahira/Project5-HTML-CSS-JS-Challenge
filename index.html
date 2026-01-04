@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood-to-UI Switcher</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎭 Mood Switcher</h1>
+    <p class="mood-message" id="moodMessage">How are you feeling today?</p>
+    
+    <div class="mood-grid">
+      <button class="mood-btn" onclick="setMood('happy')">
+        <span class="emoji">😊</span>
+        <span>Happy</span>
+      </button>
+      
+      <button class="mood-btn" onclick="setMood('calm')">
+        <span class="emoji">😌</span>
+        <span>Calm</span>
+      </button>
+      
+      <button class="mood-btn" onclick="setMood('stressed')">
+        <span class="emoji">😤</span>
+        <span>Stressed</span>
+      </button>
+      
+      <button class="mood-btn" onclick="setMood('sleepy')">
+        <span class="emoji">😴</span>
+        <span>Sleepy</span>
+      </button>
+    </div>
+    
+    <button class="action-btn" onclick="doAction()">Take Action</button>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
